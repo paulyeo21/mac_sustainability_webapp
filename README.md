@@ -1,3 +1,5 @@
 Shiny Web App for Macalester College Sustainability Waste Data
 
-Dygraphs showing waste types and diversion rate over the past 9 years at Macalester College.
+Dygraphs showing waste types and diversion rate over the past 9 years at Macalester College
+
+https://paulyeo21.shinyapps.io/macSustainability/
