@@ -15,7 +15,7 @@ timeseries_diversion_data <- ts(diversionValues, start=c(2006,9), frequency=12)
 #   dySeries("V1", label = "Diversion %")
 
 # Only Recycling, Compost, Pig Food
-othersValues <- trash_data[,c(2,3,4,6,12)]
+othersValues <- trash_data[,c(2,3,4,5,6,12)]
 timeseries_others_data <- ts(othersValues, start=c(2006, 9), frequency=12)
 # dygraph(timeseries_others_data, main="Macalester College Trash Composition") %>%
 #   dyOptions(colors = RColorBrewer::brewer.pal(5, "Set1")) %>%
